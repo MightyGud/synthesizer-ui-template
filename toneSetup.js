@@ -38,6 +38,8 @@ const filter = new Tone.Filter(20000, "lowpass");
 
 const distortion = new Tone.Distortion(0);
 
+const delay = new Tone.FeedbackDelay("8n", 0.5);
+
 const reverb = new Tone.Reverb(2);
 
 const meter = new Tone.Meter();
